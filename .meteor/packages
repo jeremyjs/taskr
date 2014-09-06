@@ -6,3 +6,11 @@
 standard-app-packages
 autopublish
 insecure
+iron:router
+coffeescript
+accounts-base
+accounts-password
+accounts-ui
+reywood:bootstrap3-sass
+pinglamb:bootstrap3
+

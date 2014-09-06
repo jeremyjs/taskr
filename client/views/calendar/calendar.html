@@ -1,0 +1,12 @@
+<template name="calendar">
+  <ul class="title-container">
+    <li class="title"> Calendar </li>
+    <li class="actions"><button class="new btn btn-default"> New </button></li>
+  </ul>
+  <div class="events">
+    {{#each tasks}}
+      {{> task}}
+    {{/each}}
+  </div>
+</template>
+
